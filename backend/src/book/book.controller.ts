@@ -20,11 +20,13 @@ import { AuthGuard } from '@nestjs/passport';
 import { Roles } from 'src/auth/decorators/roles.decorator';
 import { Role } from 'src/auth/enums/role.enum';
 import { RolesGuard } from 'src/auth/guards/roles.guard';
+import { SkipThrottle, Throttle } from '@nestjs/throttler';
 
 @Controller('books')
 export class BookController {
   constructor(private bookService: BookService) {}
 
+  @SkipThrottle()
   @Get()
   @Roles(Role.Moderator, Role.Admin)
   @UseGuards(AuthGuard(), RolesGuard)
@@ -32,6 +34,7 @@ export class BookController {
     return this.bookService.findAll(query);
   }
 
+  @Throttle({ default: { limit: 1, ttl: 5 * 1000 } })
   @Post()
   @UseGuards(AuthGuard())
   async createBook(

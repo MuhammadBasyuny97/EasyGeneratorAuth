@@ -57,7 +57,7 @@ export class AuthService {
     loginDto: LoginDto,
   ): Promise<{ success: boolean; token: string; message?: string }> {
     const { email, password } = loginDto;
-
+    console.log('Login Route Email Is: ', email);
     const user = await this.userModel.findOne({ email });
     try {
       if (!user) {
