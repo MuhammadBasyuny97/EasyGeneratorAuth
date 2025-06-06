@@ -44,7 +44,7 @@ const HomePage = () => {
         <button
           type="submit"
           onClick={logoutHandler}
-          className="h-10 flex w-40 justify-center items-center cursor-pointer rounded-md bg-indigo-600  text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="h-10 flex w-40 justify-center items-center cursor-pointer rounded-md bg-orange-600  text-sm/6 font-semibold text-white shadow-xs hover:bg-orange-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Logout
         </button>
