@@ -19,8 +19,9 @@ About This Store Features:
     <h4> React-Hook-Form </h4>
     <h4> Zod </h4>
     <h4> React-Hot-Toast </h4>
-    <h4> Axios </h4
-------------------------------
+    <h4> Axios <h4/>
+
+--------------------------
 <h2>Backend Stack</h2>
    <h4> NestJS </h4>
    <h4> Typescript </h4>
