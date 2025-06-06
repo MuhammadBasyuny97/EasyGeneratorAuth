@@ -36,7 +36,8 @@ About This Store Features:
    <h4>JWT with Access Token</h4>
    <h4>User Signup & Login</h4> 
    <h4>Security</h4>
---------------------------------
+   
+-------------------------------------
 <h2>Testing</h2>
   <h4> Jest </h4>
   <h4> E2E </h4>
