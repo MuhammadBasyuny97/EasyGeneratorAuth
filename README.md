@@ -61,15 +61,16 @@ JWT_EXPIRES=your_session_expiry
 CLIENT_URL=http://localhost:5173
 NODE_ENV=development
 
-### Setup .env file
+### Setup using my.env file
 
 ```bash
 
-MONGO_URI=your_mongo_uri
-PORT=your_chosed_port
-JWT_SECRET=your_secret_key
-JWT_EXPIRES= your_session_expiry
-CLIENT_URL=http://localhost:5173
+Feel Free to use my .env file
+
+DB_URI=mongodb+srv://muhammadbasyunydev:0552594782@node-js.wlik9nq.mongodb.net/easygenerator?retryWrites=true&w=majority&appName=node-js
+JWT_SECRET=a2ddc5bafd394acdc260f2ee2e60f380a328f067bc406756e7aad4cf9d39ba9a
+JWT_EXPIRES=3d
+PORT = 3000
 NODE_ENV=development
 
 
