@@ -50,17 +50,17 @@
 ---
 
 ### 🔐 Security Measures
+
 - Helmet middleware enabled
 - CORS configured
 - Environment variables for secrets
 - Passwords hashed using bcrypt
 
-
 ## ⚙️ Setup `.env` File
 
 Create a `.env` file in the root of the `backend` directory and add:
 
-```env
+````env
 MONGO_URI=your_mongo_uri
 PORT=your_chosen_port
 JWT_SECRET=your_secret_key
@@ -92,6 +92,7 @@ NODE_ENV=development
 ```bash
 cd backend
 npm install
+npm audit fix --force
 npm run start:dev
 
 ## How to Run
@@ -101,4 +102,4 @@ npm run start:dev
 cd frontend
 npm install
 npm run dev
-```
+````
