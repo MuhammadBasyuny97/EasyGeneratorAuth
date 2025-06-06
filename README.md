@@ -1,8 +1,6 @@
 <h1 align="center">EasyGenerator </h1>
 
-About This Store Features:
-
-<h2>Features<h2>
+h2>Features<h2>
  <h3>Form Validation using React-Hook-Form & Zod</h3>
  <h3>Signup/Login/Logout with JWT</h3>
  <h3>Protected Routes</h3>
