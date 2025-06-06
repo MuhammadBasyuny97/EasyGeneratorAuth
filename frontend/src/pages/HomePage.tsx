@@ -14,7 +14,7 @@ const HomePage = () => {
     navigate("/signin");
   };
   return (
-    <div className="h-screen w-full flex flex-col justify-between py- 12  ">
+    <div className="h-screen w-full flex flex-col justify-between py- 12 relative  ">
       <div className="  pt-4 flex  justify-center items-center">
         <h1 className="text-center py-4 pl-10 text-6xl font-bold">
           Welcome To
@@ -40,7 +40,7 @@ const HomePage = () => {
           title="EasyGenerator"
         ></iframe>
       </div>
-      <div className=" pb-8 flex  justify-center items-center">
+      <div className=" pb-8 flex  justify-center items-center absolute top-4 right-4">
         <button
           type="submit"
           onClick={logoutHandler}
