@@ -49,6 +49,13 @@
 
 ---
 
+### 🔐 Security Measures
+- Helmet middleware enabled
+- CORS configured
+- Environment variables for secrets
+- Passwords hashed using bcrypt
+
+
 ## ⚙️ Setup `.env` File
 
 Create a `.env` file in the root of the `backend` directory and add:
