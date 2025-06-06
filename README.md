@@ -1,44 +1,65 @@
-<h1 align="center">EasyGenerator </h1>
+<h1 align="center">🚀 EasyGenerator</h1>
 
-<h2>Features<h2>
- <h3>Form Validation using React-Hook-Form & Zod</h3>
- <h3>Signup/Login/Logout with JWT</h3>
- <h3>Protected Routes</h3>
- <h3>CRUD</h3>
+---
 
-<h2>FrontEnd Stack</h2>
-    <h4> ReactJS </h4>
-    <h4> Vite</h4>
-    <h4> React Router</h4>
-    <h4> Typescript </h4>
-    <h4> TailwindCss </h4>
-    <h4> Zustand </h4>
-    <h4> React-Hook-Form </h4>
-    <h4> Zod </h4>
-    <h4> React-Hot-Toast </h4>
-    <h4> Axios <h4/>
+## ✨ Features
 
---------------------------
-<h2>Backend Stack</h2>
-   <h4> NestJS </h4>
-   <h4> Typescript </h4>
-   <h4> Restful </h4>
-   <h4> JWT/Passport/Bcrypt </h4>
-   <h4> React-Hook-Form </h4>
-   <h4> CORS </h4>
-   <h4> HELMET </h4>
-   <h4> Axios </h4>
-   <h4>MongoDB & Mongoose ODM</h4> 
-   <h4>Robust Authentication System</h4>
-   <h4>JWT with Access Token</h4>
-   <h4>User Signup & Login</h4> 
-   <h4>Security</h4>
-   
--------------------------------------
-<h2>Testing</h2>
-  <h4> Jest </h4>
-  <h4> E2E </h4>
+- ✅ **Form Validation** using **React Hook Form** & **Zod**
+- 🔐 **Signup / Login / Logout** with **JWT**
+- 🛡️ **Protected Routes**
+- 📝 **CRUD Functionality**
 
+---
+
+## 🧩 Frontend Stack
+
+- ⚛️ **ReactJS**
+- ⚡ **Vite**
+- 🌐 **React Router**
+- 🧠 **TypeScript**
+- 🎨 **Tailwind CSS**
+- 📦 **Zustand**
+- 🧾 **React Hook Form**
+- 🧪 **Zod**
+- 🔔 **React Hot Toast**
+- 📡 **Axios**
+
+---
+
+## 🛠️ Backend Stack
+
+- 🏗️ **NestJS**
+- 🧠 **TypeScript**
+- 🌐 **RESTful API**
+- 🔐 **JWT / Passport / Bcrypt**
+- 🔁 **CORS**
+- 🛡️ **Helmet**
+- 🧬 **MongoDB + Mongoose ODM**
+- 🧾 **Robust Authentication**
+- 🔐 **Access Token Handling**
+- 👥 **User Signup & Login**
+- 🧯 **Security Best Practices**
+
+---
+
+## 🧪 Testing
+
+- 🧪 **Jest**
+- ⚙️ **End-to-End (E2E) Testing**
+
+---
+
+## ⚙️ Setup `.env` File
+
+Create a `.env` file in the root of the `backend` directory and add:
+
+```env
+MONGO_URI=your_mongo_uri
+PORT=your_chosen_port
+JWT_SECRET=your_secret_key
+JWT_EXPIRES=your_session_expiry
+CLIENT_URL=http://localhost:5173
+NODE_ENV=development
 
 ### Setup .env file
 
