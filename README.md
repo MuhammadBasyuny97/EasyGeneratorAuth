@@ -6,7 +6,6 @@
  <h3>Protected Routes</h3>
  <h3>CRUD</h3>
 
-
 <h2>FrontEnd Stack</h2>
     <h4> ReactJS </h4>
     <h4> Vite</h4>
