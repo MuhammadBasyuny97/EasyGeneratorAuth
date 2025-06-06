@@ -6,7 +6,7 @@
 
 - ✅ **Form Validation** using **React Hook Form** & **Zod**
 - 🔐 **Signup / Login / Logout** with **JWT**
-- 🛡️ **Protected Routes**
+- 🛡️ **Protected Routes/** **API Security Using Helmet, CORS, Rate Limiting**
 - 📝 **CRUD Functionality**
 
 ---
@@ -51,10 +51,11 @@
 
 ### 🔐 Security Measures
 
-- Helmet middleware enabled
-- CORS configured
-- Environment variables for secrets
-- Passwords hashed using bcrypt
+- **Error Handling ValidationPipe**
+- **Helmet Middleware Enabled**
+- **CORS Configured**
+- **Environment Variables for Secrets**
+- **Passwords Hashed using Bcrypt**
 
 ## ⚙️ Setup `.env` File
 
