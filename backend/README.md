@@ -8,7 +8,7 @@ This backend service handles authentication and book management for EasyGenerato
 
 ## Features
 
-- User authentication: signup, logind, logout
+- User authentication: signup, login, logout
 - Book management: create, read, update, and delete books
 - JWT-based authentication and authorization
 - Password hashing with bcrypt
@@ -21,7 +21,7 @@ This backend service handles authentication and book management for EasyGenerato
 | Method | Endpoint       | Description             |
 | ------ | -------------- | ----------------------- |
 | POST   | `/auth/signup` | Register a new user     |
-| POST   | `/auth/signin` | Login a user            |
+| POST   | `/auth/login`  | Login a user            |
 | POST   | `/auth/logout` | Logout the current user |
 
 <h1>Book CRUD <h1/>
@@ -34,7 +34,7 @@ This backend service handles authentication and book management for EasyGenerato
 | PUT    | `/books/:id` | Update book details by id              |
 | DELETE | `/books/:id` | Delete book by id                      |
 
-Use API Client Postman Collection Provided to test it.
+Use API Client Postman Collection Provided to test
 
 Technologies Used
 NestJS - A progressive Node.js framework for building efficient, reliable, and scalable server-side applications
